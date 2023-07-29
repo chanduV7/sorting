@@ -1,0 +1,20 @@
+.productDetails-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.product-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    box-shadow: 0 0 0.2rem gray;
+    border-radius: 1rem;
+    margin: 0.3rem;
+   img{
+    width: 30%;
+   
+   }
+}

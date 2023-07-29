@@ -1,0 +1,26 @@
+.productPage-container{
+    width: 100vw;
+    height: 100vh
+}
+
+.productPage-products{
+    width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.productPage-header{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+}
+
+.offCanvas-container{
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

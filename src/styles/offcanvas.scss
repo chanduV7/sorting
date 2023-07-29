@@ -1,0 +1,22 @@
+.offcanvas-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    z-index: 343;
+    box-shadow: 0 0 0.4rem;
+    div{
+      &:hover{
+        background-color: gray;
+      }
+    }
+    
+}
+
+.open{
+    display: block;
+    z-index: 23;
+}
+
+.close{
+    display: none;
+}
